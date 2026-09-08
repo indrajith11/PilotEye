@@ -1,0 +1,17 @@
+# personal data & secrets — NEVER commit
+profile.json
+*.env
+credentials/
+otp_slots/
+
+# runtime state — session cookies live here
+sessions/
+chrome_profile/
+status.json
+frames/
+*.log
+*.jpg
+*.png
+__pycache__/
+*.pyc
+.DS_Store
